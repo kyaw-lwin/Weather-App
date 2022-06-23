@@ -1,0 +1,138 @@
+
+    body {
+        background-image: url("background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .mainframe {
+        background-color: #213262;
+        width: 340px;
+        height: 270px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+        color: black;
+        border-radius: 5px;
+        /* flex-direction: row; */
+        font-size: 14px;
+        display:inline-block;
+    }
+    .innerBody {
+        width: 150px;
+        height: 230px;
+        background-image:  url("weather\ image 1.jpg");
+        background-size: cover;
+        text-align: center;
+        /* padding-bottom: 0px; */
+        padding-top: 5px;
+        margin-top: -225px;
+        margin-left: 20px;
+        margin-right: 150px;
+        color: white;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .header {
+        color: white;
+        text-align: start;
+        padding-left: 20px;
+        margin-top: -20;
+        font-size: 15px;
+        /* margin-left: 20px; */
+    }
+    .innerframe1 {
+        background-color: rgb(255, 255, 255, 0.30);
+        color: white;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        padding:10px;
+        /* margin-left:20px;
+        margin-right: 20px; */
+        display:inline-block;
+    }
+    .innerframe2 {
+        background-color: rgb(255, 255, 255, 0.30);
+        color: white;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        padding:10px;
+        /* margin-left:20px;
+        margin-right: 20px; */
+        display:inline-block;
+        }
+    .mainvars {
+        padding-top: 30px;
+        padding-left: 180px;
+        padding-right: 20px;
+        color:white;
+        justify-content:center;
+        text-align: center;
+    }
+    .cont {
+    margin-top: 12px;
+    }
+    /* .image {
+        padding-left: 20px;
+        } */
+    .description {
+        font-size: 14px;
+        text-transform:capitalize;
+    }
+    .searchCity{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+        margin-bottom: -30px;
+    
+    }
+    .searchbar {
+        width: 500px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .mainCard {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .button {
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 15px;
+      }
+      
+    .button1 {
+        background-color: white; 
+        color: black; 
+
+      }
+      
+    .button1:hover {
+        background-color: #213262;
+        color: white;
+      }
+
+      .subCards {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+     }
+
+     .navbar {
+        background-color: #213262;
+        padding:50px;
+
+     }
